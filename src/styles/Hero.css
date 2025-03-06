@@ -1,0 +1,80 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 50vh;
+    /* Full viewport height */
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    /* Pink gradient */
+    text-align: center;
+    /* Center-align text */
+    padding: 0 1rem;
+    /* Add some padding on the sides */
+}
+
+.hero-content {
+    max-width: 800px;
+    /* Limit the width of the content */
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    align-items: center;
+    /* Center-align children horizontally */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    /* Large heading */
+    margin-bottom: 1rem;
+    /* Space below the heading */
+    color: #333;
+    /* Dark text color */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    /* Medium paragraph text */
+    margin-bottom: 2rem;
+    /* Space below the paragraph */
+    color: #555;
+    /* Slightly lighter text color */
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    /* Button padding */
+    font-size: 1rem;
+    /* Button text size */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    /* Purple gradient */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: transform 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.hero button:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+        /* Smaller heading on mobile */
+    }
+
+    .hero p {
+        font-size: 1rem;
+        /* Smaller paragraph text on mobile */
+    }
+}
