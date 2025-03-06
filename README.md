@@ -2,9 +2,6 @@
 
 This project is a **fully responsive home page** built using React. It features a modern design with gradient backgrounds, a mobile-friendly navigation bar, a hero section, cards showcasing key features, and more. The page is designed to be visually appealing and functional across all devices.
 
-## Live Demo
-
-You can view a live demo of the project [here](#) (replace with your deployment link).
 
 ## Features
 
